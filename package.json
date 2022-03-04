@@ -1,0 +1,35 @@
+{
+  "name": "template-parcel-posthtml-tailwindcss",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel --no-cache",
+    "build": "parcel build --dist-dir ./public"
+  },
+  "source": "./src/index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlerikjonatan/template-parcel-posthtml-tailwindcss.git"
+  },
+  "keywords": [
+    "parcel",
+    "posthtml",
+    "tailwindcss",
+    "template"
+  ],
+  "author": "Jonatan Pettersson <pettersson.jonatan@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/karlerikjonatan/template-parcel-posthtml-tailwindcss#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "parcel": "^2.3.2",
+    "postcss": "^8.4.7",
+    "posthtml-doctype": "^1.1.1",
+    "posthtml-include": "^1.7.2",
+    "prettier": "^2.5.1",
+    "prettier-plugin-tailwindcss": "^0.1.8",
+    "tailwindcss": "^3.0.23"
+  },
+  "engines": {
+    "node": ">= 16"
+  }
+}

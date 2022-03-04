@@ -1,0 +1,4 @@
+{
+  "htmlWhitespaceSensitivity": "ignore",
+  "tailwindConfig": "./tailwind.config.js"
+}
